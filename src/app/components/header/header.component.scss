@@ -1,0 +1,45 @@
+.top-row{
+    background-color: #0097A7;
+    height: 40px;
+    display:flex;
+    justify-content: space-between;
+
+    span{
+        padding: 1rem;
+        font-size: 1rem;
+        color: white;
+        a{color: white;}
+    }
+
+    .sm-icon{
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: .3rem;
+    }
+    
+    .sm-icon:hover{
+        cursor: pointer;
+        transform:scale(1.5);
+    }
+}
+
+.main-row{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    .logo{
+        margin-top: 2rem;
+        width: 400px;
+        height: 80px;
+    }
+    h3{
+        color: black;
+        display: inline;
+        padding: .5rem;
+    }
+    h3:hover{
+        cursor: pointer;
+        transform:scale(1.1);
+    }
+   
+}
