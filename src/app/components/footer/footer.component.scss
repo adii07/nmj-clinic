@@ -27,3 +27,10 @@ p{
     font-weight: 300;
     text-align: center;
 }
+
+@media screen and (max-width:800px) {
+    button{
+        font-size: 12px;
+    }
+    
+}
