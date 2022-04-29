@@ -1,0 +1,136 @@
+.main-conatiner{
+    padding: 2rem;
+    margin: 2rem;
+}
+.conatiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+    padding: 1rem;
+    align-self: center;
+}
+
+.content{
+    font-weight: 500;
+    font-size: 16px;
+    margin: auto;
+}
+h2{
+ font-weight: 600;  
+}
+
+.images{
+    margin: 1rem;
+    width: 600px;
+    min-width: 30%;
+    height: 500px;
+}
+.message{
+    display: grid;
+    // column-gap: 50px;
+    // grid-column: 2/4;
+    grid-template-columns: 3fr 1fr ;
+    padding:1rem 3rem;
+    margin:1rem 0;
+    background-color: whitesmoke;
+
+    .message-content{
+        margin: 2rem;
+        font-size: 16px;
+        h2{
+            font-size: 28px;
+        }
+        strong{
+            font-size: 20px;
+        }
+    }
+    .founder{
+        padding: 2rem;
+        border-radius: 5px;
+        text-align: center;
+    }
+}
+.show{
+    display: none;
+}
+
+@media screen and(max-width:800px) {
+    
+    .show{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+    .main-conatiner{
+        padding: 0rem;
+        margin: 0;
+        max-width: 100%;
+    }
+    .conatiner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 2rem;
+        padding: 1rem;
+        align-self: center;
+
+        .images{
+            margin: 1rem;
+            max-width: 75%;
+            height: 250px;
+        }
+
+        .content{
+            font-weight: 400;
+            font-size: 14px;
+            margin: auto;
+        }
+        h2{
+         font-weight: 500;  
+        }
+    }
+
+    .diff{
+        background-color: whitesmoke;
+        max-width: 100%;
+        padding: 0;
+        margin: auto;
+        .content{
+            max-width: 75%;
+        }
+        .images{
+            margin: auto;
+        }
+    }
+
+    .message{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+
+        .message-content{
+            max-width: 75%;
+            margin: auto;
+            padding: auto;
+            h2{
+                font-size: 20px;
+            }
+            strong{
+                font-size: 16px;
+            }
+        }
+    }
+
+    .founder{
+        border-radius: 5px;
+        text-align: center;
+        max-width: 75%;
+        img{
+            transform: scale(.8);
+            padding: auto;
+        }
+    }
+}

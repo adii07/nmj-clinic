@@ -1,0 +1,29 @@
+.top{
+    background-color: #0097A7;
+    
+}
+.sm-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: .3rem;
+}
+
+.sm-icon:hover{
+    cursor: pointer;
+    transform:scale(1.5);
+}
+
+.top-row{
+    display: flex;
+    justify-content: center;
+    button{
+        margin: 2rem;
+    }
+}
+
+p{
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
